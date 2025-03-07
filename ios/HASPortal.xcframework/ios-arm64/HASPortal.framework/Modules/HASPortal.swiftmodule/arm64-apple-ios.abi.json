@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "HASPortal",
+    "printedName": "HASPortal",
     "children": [
       {
         "kind": "Import",
@@ -239,6 +239,22 @@
         "declAttributes": [
           "AccessControl",
           "ObjC"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -276,6 +292,7 @@
             "objc_name": "userContentController:didReceiveScriptMessage:",
             "declAttributes": [
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -302,6 +319,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -349,6 +367,7 @@
             "mangledName": "$s9HASPortal19WKWebViewControllerC13configuration16capBrowserPluginACSDySSypG_AA6PortalCtcfc",
             "moduleName": "HASPortal",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -389,6 +408,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Required",
               "AccessControl"
@@ -426,6 +446,7 @@
             "mangledName": "$s9HASPortal19WKWebViewControllerC6sourceAcA0B6SourceOSg_tcfc",
             "moduleName": "HASPortal",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -454,6 +475,7 @@
             "mangledName": "$s9HASPortal19WKWebViewControllerC3urlAC10Foundation3URLV_tcfc",
             "moduleName": "HASPortal",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -533,6 +555,7 @@
             "mangledName": "$s9HASPortal19WKWebViewControllerC13configuration16capBrowserPlugin3url7headers13isInspectableACSDySSypG_AA6PortalC10Foundation3URLVSDyS2SGSbtcfc",
             "moduleName": "HASPortal",
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -557,8 +580,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -656,8 +680,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -771,8 +796,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "SetterAccess",
               "AccessControl"
             ],
@@ -835,8 +861,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -942,8 +969,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1041,8 +1069,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1164,8 +1193,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1303,8 +1333,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1448,8 +1479,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1591,8 +1623,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1698,8 +1731,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1789,8 +1823,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1880,8 +1915,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -1971,8 +2007,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -2062,8 +2099,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -2153,8 +2191,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -2252,8 +2291,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -2367,8 +2407,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -2474,8 +2515,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -2565,8 +2607,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -2664,8 +2707,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -2779,8 +2823,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -2894,8 +2939,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3009,8 +3055,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3124,8 +3171,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3239,8 +3287,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3354,8 +3403,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3469,8 +3519,9 @@
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage",
+              "Preconcurrency",
               "Custom",
+              "HasStorage",
               "AccessControl"
             ],
             "hasStorage": true,
@@ -3578,6 +3629,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -3608,6 +3660,7 @@
             "moduleName": "HASPortal",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3630,6 +3683,7 @@
             "moduleName": "HASPortal",
             "isOpen": true,
             "declAttributes": [
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -3668,6 +3722,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -3695,6 +3750,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -3728,6 +3784,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -3761,6 +3818,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -3856,6 +3914,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl",
               "Override"
@@ -3884,6 +3943,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -3938,6 +3998,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override",
               "AccessControl"
@@ -4020,6 +4081,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "Override"
             ],
@@ -4047,6 +4109,7 @@
             "mangledName": "$s9HASPortal19WKWebViewControllerC4load6sourceyAA0B6SourceO_tF",
             "moduleName": "HASPortal",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -4074,6 +4137,7 @@
             "mangledName": "$s9HASPortal19WKWebViewControllerC4load6remotey10Foundation3URLV_tF",
             "moduleName": "HASPortal",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -4107,6 +4171,7 @@
             "mangledName": "$s9HASPortal19WKWebViewControllerC4load4file6accessy10Foundation3URLV_AItF",
             "moduleName": "HASPortal",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -4149,6 +4214,7 @@
             "mangledName": "$s9HASPortal19WKWebViewControllerC4load6string4baseySS_10Foundation3URLVSgtF",
             "moduleName": "HASPortal",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -4170,6 +4236,7 @@
             "mangledName": "$s9HASPortal19WKWebViewControllerC17goBackToFirstPageyyF",
             "moduleName": "HASPortal",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -4191,6 +4258,7 @@
             "mangledName": "$s9HASPortal19WKWebViewControllerC6reloadyyF",
             "moduleName": "HASPortal",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -4273,6 +4341,7 @@
             "mangledName": "$s9HASPortal19WKWebViewControllerC13executeScript6script10completionySS_yypSg_s5Error_pSgtcSgtF",
             "moduleName": "HASPortal",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
@@ -4330,6 +4399,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4375,6 +4445,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4420,6 +4491,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4471,6 +4543,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4522,6 +4595,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4598,6 +4672,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4653,6 +4728,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4708,6 +4784,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Preconcurrency",
               "Custom",
               "AccessControl"
             ],
@@ -4721,6 +4798,7 @@
         "moduleName": "HASPortal",
         "isOpen": true,
         "declAttributes": [
+          "Preconcurrency",
           "Custom",
           "AccessControl",
           "ObjC"
@@ -4732,6 +4810,20 @@
           "ObjectiveC.NSObject"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -5228,6 +5320,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -5603,6 +5709,22 @@
         "moduleName": "HASPortal",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -5803,6 +5925,20 @@
         ],
         "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -6189,6 +6325,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -6710,6 +6860,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -6758,34 +6922,6 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "HASPortal"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "HASPortal"
-      },
-      {
-        "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
-        "declKind": "Import",
-        "moduleName": "HASPortal"
-      },
-      {
-        "kind": "Import",
-        "name": "DeveloperToolsSupport",
-        "printedName": "DeveloperToolsSupport",
-        "declKind": "Import",
-        "moduleName": "HASPortal"
       }
     ],
     "json_format_version": 8
@@ -6990,142 +7126,142 @@
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "Dictionary",
-      "offset": 4742,
+      "offset": 4481,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4777,
+      "offset": 4516,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4916,
+      "offset": 4655,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5221,
+      "offset": 4960,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5364,
+      "offset": 5103,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5401,
+      "offset": 5140,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5441,
+      "offset": 5180,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5472,
+      "offset": 5211,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5507,
+      "offset": 5246,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5549,
+      "offset": 5288,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6324,
+      "offset": 6063,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6594,
+      "offset": 6333,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "Array",
-      "offset": 6733,
+      "offset": 6472,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "Array",
-      "offset": 6799,
+      "offset": 6538,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7362,
+      "offset": 7101,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7457,
+      "offset": 7196,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7715,
+      "offset": 7454,
       "length": 6,
       "value": "\"Back\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 8045,
+      "offset": 7784,
       "length": 9,
       "value": "\"Forward\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10213,
+      "offset": 9952,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
-      "kind": "StringLiteral",
-      "offset": 1212,
-      "length": 19,
-      "value": "\"HASPortal.WKWebViewController\""
+      "kind": "BooleanLiteral",
+      "offset": 16841,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/PDFViewerViewController.swift",
@@ -7133,41 +7269,6 @@
       "offset": 163,
       "length": 12,
       "value": "\"PDF Viewer\""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1269,
-      "length": 13,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1292,
-      "length": 11,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1313,
-      "length": 6,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1329,
-      "length": 15,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1354,
-      "length": 5,
-      "value": "5"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
@@ -7235,149 +7336,114 @@
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 2792,
+      "offset": 2469,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "IntegerLiteral",
-      "offset": 5232,
+      "offset": 4909,
       "length": 8,
       "value": "31556926"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 5259,
+      "offset": 4936,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "Dictionary",
-      "offset": 7806,
+      "offset": 7483,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 7838,
+      "offset": 7515,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 7879,
+      "offset": 7556,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 7923,
+      "offset": 7600,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 7958,
+      "offset": 7635,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 7997,
+      "offset": 7674,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 8031,
+      "offset": 7708,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 8065,
+      "offset": 7742,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 8148,
+      "offset": 7825,
       "length": 7,
       "value": "\"blank\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 8191,
+      "offset": 7868,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 8242,
+      "offset": 7919,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 8282,
+      "offset": 7959,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 17648,
+      "offset": 17325,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
-      "kind": "StringLiteral",
-      "offset": 647,
-      "length": 6,
-      "value": "\"HASPortal.Portal\""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Library\/Developer\/Xcode\/DerivedData\/HASPortal-gysktmfqpuuhfbdxdjyohlfvulyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HASPortal\/IntermediateBuildFilesPath\/HASPortal.build\/Release-iphoneos\/HASPortal.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 721,
-      "length": 6,
-      "value": "\"Back\""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Library\/Developer\/Xcode\/DerivedData\/HASPortal-gysktmfqpuuhfbdxdjyohlfvulyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HASPortal\/IntermediateBuildFilesPath\/HASPortal.build\/Release-iphoneos\/HASPortal.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 851,
-      "length": 9,
-      "value": "\"Forward\""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Library\/Developer\/Xcode\/DerivedData\/HASPortal-gysktmfqpuuhfbdxdjyohlfvulyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HASPortal\/IntermediateBuildFilesPath\/HASPortal.build\/Release-iphoneos\/HASPortal.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1001,
-      "length": 18,
-      "value": "\"error-background\""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Library\/Developer\/Xcode\/DerivedData\/HASPortal-gysktmfqpuuhfbdxdjyohlfvulyk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HASPortal\/IntermediateBuildFilesPath\/HASPortal.build\/Release-iphoneos\/HASPortal.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 1148,
-      "length": 12,
-      "value": "\"mascot-sad\""
     }
   ]
 }
