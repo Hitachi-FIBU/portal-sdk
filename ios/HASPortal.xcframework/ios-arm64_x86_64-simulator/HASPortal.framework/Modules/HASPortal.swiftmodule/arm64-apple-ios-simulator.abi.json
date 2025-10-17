@@ -26,6 +26,13 @@
         "moduleName": "HASPortal"
       },
       {
+        "kind": "Import",
+        "name": "PhotosUI",
+        "printedName": "PhotosUI",
+        "declKind": "Import",
+        "moduleName": "HASPortal"
+      },
+      {
         "kind": "TypeDecl",
         "name": "WKWebViewControllerDelegate",
         "printedName": "WKWebViewControllerDelegate",
@@ -2266,6 +2273,284 @@
           },
           {
             "kind": "Var",
+            "name": "isStackedPortal",
+            "printedName": "isStackedPortal",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9HASPortal19WKWebViewControllerC15isStackedPortalSbvp",
+            "mangledName": "$s9HASPortal19WKWebViewControllerC15isStackedPortalSbvp",
+            "moduleName": "HASPortal",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HASPortal19WKWebViewControllerC15isStackedPortalSbvg",
+                "mangledName": "$s9HASPortal19WKWebViewControllerC15isStackedPortalSbvg",
+                "moduleName": "HASPortal",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HASPortal19WKWebViewControllerC15isStackedPortalSbvs",
+                "mangledName": "$s9HASPortal19WKWebViewControllerC15isStackedPortalSbvs",
+                "moduleName": "HASPortal",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HASPortal19WKWebViewControllerC15isStackedPortalSbvM",
+                "mangledName": "$s9HASPortal19WKWebViewControllerC15isStackedPortalSbvM",
+                "moduleName": "HASPortal",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldShowCustomHeader",
+            "printedName": "shouldShowCustomHeader",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9HASPortal19WKWebViewControllerC22shouldShowCustomHeaderSbvp",
+            "mangledName": "$s9HASPortal19WKWebViewControllerC22shouldShowCustomHeaderSbvp",
+            "moduleName": "HASPortal",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HASPortal19WKWebViewControllerC22shouldShowCustomHeaderSbvg",
+                "mangledName": "$s9HASPortal19WKWebViewControllerC22shouldShowCustomHeaderSbvg",
+                "moduleName": "HASPortal",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HASPortal19WKWebViewControllerC22shouldShowCustomHeaderSbvs",
+                "mangledName": "$s9HASPortal19WKWebViewControllerC22shouldShowCustomHeaderSbvs",
+                "moduleName": "HASPortal",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HASPortal19WKWebViewControllerC22shouldShowCustomHeaderSbvM",
+                "mangledName": "$s9HASPortal19WKWebViewControllerC22shouldShowCustomHeaderSbvM",
+                "moduleName": "HASPortal",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customHeaderBackgroundColor",
+            "printedName": "customHeaderBackgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9HASPortal19WKWebViewControllerC27customHeaderBackgroundColorSo7UIColorCvp",
+            "mangledName": "$s9HASPortal19WKWebViewControllerC27customHeaderBackgroundColorSo7UIColorCvp",
+            "moduleName": "HASPortal",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HASPortal19WKWebViewControllerC27customHeaderBackgroundColorSo7UIColorCvg",
+                "mangledName": "$s9HASPortal19WKWebViewControllerC27customHeaderBackgroundColorSo7UIColorCvg",
+                "moduleName": "HASPortal",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HASPortal19WKWebViewControllerC27customHeaderBackgroundColorSo7UIColorCvs",
+                "mangledName": "$s9HASPortal19WKWebViewControllerC27customHeaderBackgroundColorSo7UIColorCvs",
+                "moduleName": "HASPortal",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9HASPortal19WKWebViewControllerC27customHeaderBackgroundColorSo7UIColorCvM",
+                "mangledName": "$s9HASPortal19WKWebViewControllerC27customHeaderBackgroundColorSo7UIColorCvM",
+                "moduleName": "HASPortal",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "userAgent",
             "printedName": "userAgent",
             "children": [
@@ -3793,6 +4078,40 @@
           },
           {
             "kind": "Function",
+            "name": "viewDidAppear",
+            "printedName": "viewDidAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HASPortal@objc(cs)WKWebViewController(im)viewDidAppear:",
+            "mangledName": "$s9HASPortal19WKWebViewControllerC13viewDidAppearyySbF",
+            "moduleName": "HASPortal",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "viewWillDisappear",
             "printedName": "viewWillDisappear(_:)",
             "children": [
@@ -4023,6 +4342,117 @@
                 "overriding": true,
                 "isOpen": true,
                 "objc_name": "shouldAutorotate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "prefersStatusBarHidden",
+            "printedName": "prefersStatusBarHidden",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HASPortal@objc(cs)WKWebViewController(py)prefersStatusBarHidden",
+            "mangledName": "$s9HASPortal19WKWebViewControllerC22prefersStatusBarHiddenSbvp",
+            "moduleName": "HASPortal",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "prefersStatusBarHidden",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HASPortal@objc(cs)WKWebViewController(im)prefersStatusBarHidden",
+                "mangledName": "$s9HASPortal19WKWebViewControllerC22prefersStatusBarHiddenSbvg",
+                "moduleName": "HASPortal",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "prefersStatusBarHidden",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preferredStatusBarUpdateAnimation",
+            "printedName": "preferredStatusBarUpdateAnimation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIStatusBarAnimation",
+                "printedName": "UIKit.UIStatusBarAnimation",
+                "usr": "c:@E@UIStatusBarAnimation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@HASPortal@objc(cs)WKWebViewController(py)preferredStatusBarUpdateAnimation",
+            "mangledName": "$s9HASPortal19WKWebViewControllerC33preferredStatusBarUpdateAnimationSo08UIStatusgI0Vvp",
+            "moduleName": "HASPortal",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "preferredStatusBarUpdateAnimation",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIStatusBarAnimation",
+                    "printedName": "UIKit.UIStatusBarAnimation",
+                    "usr": "c:@E@UIStatusBarAnimation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@HASPortal@objc(cs)WKWebViewController(im)preferredStatusBarUpdateAnimation",
+                "mangledName": "$s9HASPortal19WKWebViewControllerC33preferredStatusBarUpdateAnimationSo08UIStatusgI0Vvg",
+                "moduleName": "HASPortal",
+                "overriding": true,
+                "isOpen": true,
+                "objc_name": "preferredStatusBarUpdateAnimation",
                 "declAttributes": [
                   "Dynamic",
                   "ObjC"
@@ -4349,6 +4779,80 @@
           },
           {
             "kind": "Function",
+            "name": "backButtonDidClick",
+            "printedName": "backButtonDidClick(sender:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "AnyObject"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@HASPortal@objc(cs)WKWebViewController(im)backButtonDidClickWithSender:",
+            "mangledName": "$s9HASPortal19WKWebViewControllerC18backButtonDidClick6senderyyXl_tF",
+            "moduleName": "HASPortal",
+            "objc_name": "backButtonDidClickWithSender:",
+            "declAttributes": [
+              "Dynamic",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "picker",
+            "printedName": "picker(_:didFinishPicking:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PHPickerViewController",
+                "printedName": "PhotosUI.PHPickerViewController",
+                "usr": "c:objc(cs)PHPickerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[PhotosUI.PHPickerResult]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PHPickerResult",
+                    "printedName": "PhotosUI.PHPickerResult",
+                    "usr": "s:8PhotosUI14PHPickerResultV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HASPortal19WKWebViewControllerC6picker_16didFinishPickingySo08PHPickercD0C_Say8PhotosUI0I6ResultVGtF",
+            "mangledName": "$s9HASPortal19WKWebViewControllerC6picker_16didFinishPickingySo08PHPickercD0C_Say8PhotosUI0I6ResultVGtF",
+            "moduleName": "HASPortal",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "webView",
             "printedName": "webView(_:createWebViewWith:for:windowFeatures:)",
             "children": [
@@ -4402,6 +4906,76 @@
               "Preconcurrency",
               "Custom",
               "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:requestMediaCapturePermissionFor:initiatedByFrame:type:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKSecurityOrigin",
+                "printedName": "WebKit.WKSecurityOrigin",
+                "usr": "c:objc(cs)WKSecurityOrigin"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKFrameInfo",
+                "printedName": "WebKit.WKFrameInfo",
+                "usr": "c:objc(cs)WKFrameInfo"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKMediaCaptureType",
+                "printedName": "WebKit.WKMediaCaptureType",
+                "usr": "c:@E@WKMediaCaptureType"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKPermissionDecision) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKPermissionDecision",
+                    "printedName": "WebKit.WKPermissionDecision",
+                    "usr": "c:@E@WKPermissionDecision"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@HASPortal@objc(cs)WKWebViewController(im)webView:requestMediaCapturePermissionForOrigin:initiatedByFrame:type:decisionHandler:",
+            "mangledName": "$s9HASPortal19WKWebViewControllerC03webC0_32requestMediaCapturePermissionFor16initiatedByFrame4type15decisionHandlerySo0bC0C_So16WKSecurityOriginCSo11WKFrameInfoCSo07WKMediaH4TypeVySo20WKPermissionDecisionVctF",
+            "moduleName": "HASPortal",
+            "intro_iOS": "15.0",
+            "objc_name": "webView:requestMediaCapturePermissionForOrigin:initiatedByFrame:type:decisionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "Available"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -4886,6 +5460,13 @@
             "printedName": "UITraitChangeObservable",
             "usr": "s:5UIKit23UITraitChangeObservableP",
             "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PHPickerViewControllerDelegate",
+            "printedName": "PHPickerViewControllerDelegate",
+            "usr": "s:8PhotosUI30PHPickerViewControllerDelegateP",
+            "mangledName": "$s8PhotosUI30PHPickerViewControllerDelegateP"
           }
         ]
       },
@@ -6460,14 +7041,15 @@
             "mangledName": "$s9HASPortal6PortalC13configurationACSDySSypG_tcfc",
             "moduleName": "HASPortal",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           },
           {
             "kind": "Function",
             "name": "open",
-            "printedName": "open(urlString:headers:closeModal:closeModalTitle:closeModalDescription:closeModalOk:closeModalCancel:isInspectable:isAnimated:shareDisclaimer:toolbarType:backgroundColor:ignoreUntrustedSSLError:showReloadButton:)",
+            "printedName": "open(urlString:headers:closeModal:closeModalTitle:closeModalDescription:closeModalOk:closeModalCancel:isInspectable:isAnimated:shareDisclaimer:toolbarType:backgroundColor:ignoreUntrustedSSLError:showReloadButton:showHeader:title:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6605,11 +7187,25 @@
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
                 "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:9HASPortal6PortalC4open9urlString7headers10closeModal0gH5Title0gH11Description0gH2Ok0gH6Cancel13isInspectable0M8Animated15shareDisclaimer11toolbarType15backgroundColor23ignoreUntrustedSSLError16showReloadButtonySS_SDyS2SGSbS4SS2bSDySSypGSgS2SS2btF",
-            "mangledName": "$s9HASPortal6PortalC4open9urlString7headers10closeModal0gH5Title0gH11Description0gH2Ok0gH6Cancel13isInspectable0M8Animated15shareDisclaimer11toolbarType15backgroundColor23ignoreUntrustedSSLError16showReloadButtonySS_SDyS2SGSbS4SS2bSDySSypGSgS2SS2btF",
+            "usr": "s:9HASPortal6PortalC4open9urlString7headers10closeModal0gH5Title0gH11Description0gH2Ok0gH6Cancel13isInspectable0M8Animated15shareDisclaimer11toolbarType15backgroundColor23ignoreUntrustedSSLError16showReloadButton0Y6Header5titleySS_SDyS2SGSbS4SS2bSDySSypGSgS2SS3bSStF",
+            "mangledName": "$s9HASPortal6PortalC4open9urlString7headers10closeModal0gH5Title0gH11Description0gH2Ok0gH6Cancel13isInspectable0M8Animated15shareDisclaimer11toolbarType15backgroundColor23ignoreUntrustedSSLError16showReloadButton0Y6Header5titleySS_SDyS2SGSbS4SS2bSDySSypGSgS2SS3bSStF",
             "moduleName": "HASPortal",
             "declAttributes": [
               "AccessControl"
@@ -6630,6 +7226,51 @@
             "declKind": "Func",
             "usr": "s:9HASPortal6PortalC5closeyyF",
             "mangledName": "$s9HASPortal6PortalC5closeyyF",
+            "moduleName": "HASPortal",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openNewInstance",
+            "printedName": "openNewInstance(urlString:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HASPortal6PortalC15openNewInstance9urlString7optionsySS_SDySSypGtF",
+            "mangledName": "$s9HASPortal6PortalC15openNewInstance9urlString7optionsySS_SDySSypGtF",
             "moduleName": "HASPortal",
             "declAttributes": [
               "AccessControl"
@@ -6922,528 +7563,1129 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HASPortal"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "PortalStateManager",
+        "printedName": "PortalStateManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PortalStateManager",
+                "printedName": "HASPortal.PortalStateManager",
+                "usr": "s:9HASPortal18PortalStateManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:9HASPortal18PortalStateManagerCyACSDySSypGcfc",
+            "mangledName": "$s9HASPortal18PortalStateManagerCyACSDySSypGcfc",
+            "moduleName": "HASPortal",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "set",
+            "printedName": "set(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ProtocolComposition",
+                "printedName": "Any"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HASPortal18PortalStateManagerC3set3key5valueySS_yptF",
+            "mangledName": "$s9HASPortal18PortalStateManagerC3set3key5valueySS_yptF",
+            "moduleName": "HASPortal",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(key:type:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "τ_0_0.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HASPortal18PortalStateManagerC3get3key4typexSgSS_xmtlF",
+            "mangledName": "$s9HASPortal18PortalStateManagerC3get3key4typexSgSS_xmtlF",
+            "moduleName": "HASPortal",
+            "genericSig": "<τ_0_0>",
+            "sugared_genericSig": "<T>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HASPortal18PortalStateManagerC3get3keyypSgSS_tF",
+            "mangledName": "$s9HASPortal18PortalStateManagerC3get3keyypSgSS_tF",
+            "moduleName": "HASPortal",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getString",
+            "printedName": "getString(key:fallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HASPortal18PortalStateManagerC9getString3key8fallbackS2S_SStF",
+            "mangledName": "$s9HASPortal18PortalStateManagerC9getString3key8fallbackS2S_SStF",
+            "moduleName": "HASPortal",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBool",
+            "printedName": "getBool(key:fallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HASPortal18PortalStateManagerC7getBool3key8fallbackSbSS_SbtF",
+            "mangledName": "$s9HASPortal18PortalStateManagerC7getBool3key8fallbackSbSS_SbtF",
+            "moduleName": "HASPortal",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HASPortal18PortalStateManagerC5clearyyF",
+            "mangledName": "$s9HASPortal18PortalStateManagerC5clearyyF",
+            "moduleName": "HASPortal",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HASPortal18PortalStateManagerC5clear3keyySS_tF",
+            "mangledName": "$s9HASPortal18PortalStateManagerC5clear3keyySS_tF",
+            "moduleName": "HASPortal",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAllKeys",
+            "printedName": "getAllKeys()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HASPortal18PortalStateManagerC10getAllKeysSaySSGyF",
+            "mangledName": "$s9HASPortal18PortalStateManagerC10getAllKeysSaySSGyF",
+            "moduleName": "HASPortal",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasKey",
+            "printedName": "hasKey(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HASPortal18PortalStateManagerC6hasKeyySbSSF",
+            "mangledName": "$s9HASPortal18PortalStateManagerC6hasKeyySbSSF",
+            "moduleName": "HASPortal",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getAllState",
+            "printedName": "getAllState()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9HASPortal18PortalStateManagerC06getAllC0SDySSypGyF",
+            "mangledName": "$s9HASPortal18PortalStateManagerC06getAllC0SDySSypGyF",
+            "moduleName": "HASPortal",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9HASPortal18PortalStateManagerC",
+        "mangledName": "$s9HASPortal18PortalStateManagerC",
+        "moduleName": "HASPortal",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HASPortal"
       }
     ],
     "json_format_version": 8
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "BooleanLiteral",
       "offset": 698,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "StringLiteral",
       "offset": 892,
       "length": 12,
       "value": "\"mascot-sad\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "IntegerLiteral",
       "offset": 1142,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "BooleanLiteral",
       "offset": 1180,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "StringLiteral",
       "offset": 1327,
       "length": 7,
       "value": "\"xmark\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "StringLiteral",
       "offset": 1400,
       "length": 12,
       "value": "\"xmark_icon\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "BooleanLiteral",
       "offset": 1596,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "IntegerLiteral",
       "offset": 1916,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "IntegerLiteral",
       "offset": 1988,
       "length": 2,
       "value": "24"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "StringLiteral",
       "offset": 2165,
       "length": 30,
       "value": "\"Whoops, something went wrong\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2285,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2568,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "IntegerLiteral",
       "offset": 2634,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "StringLiteral",
       "offset": 2700,
       "length": 56,
       "value": "\"Service is currently not available.\nPlease try again.\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "StringLiteral",
       "offset": 3008,
       "length": 11,
       "value": "\"try again\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "BooleanLiteral",
       "offset": 3398,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "StringLiteral",
       "offset": 3588,
       "length": 14,
       "value": "\"Back to Home\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "IntegerLiteral",
       "offset": 3738,
       "length": 2,
       "value": "18"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "IntegerLiteral",
       "offset": 3823,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "BooleanLiteral",
       "offset": 3863,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "IntegerLiteral",
       "offset": 4139,
       "length": 2,
       "value": "15"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Error.swift",
       "kind": "BooleanLiteral",
       "offset": 4177,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 67,
+      "offset": 83,
       "length": 19,
       "value": "\"estimatedProgress\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 114,
+      "offset": 130,
       "length": 7,
       "value": "\"title\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 146,
+      "offset": 162,
       "length": 8,
       "value": "\"Cookie\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "Array",
-      "offset": 213,
+      "offset": 229,
       "length": 20,
       "value": "[\"itunes.apple.com\"]"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "Array",
-      "offset": 259,
+      "offset": 275,
       "length": 24,
       "value": "[\"tel\", \"mailto\", \"sms\"]"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 307,
+      "offset": 323,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "Dictionary",
-      "offset": 4481,
+      "offset": 7623,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4516,
+      "offset": 7658,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4655,
+      "offset": 7797,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 4960,
+      "offset": 8102,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5103,
+      "offset": 8245,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5140,
+      "offset": 8282,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5180,
+      "offset": 8322,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5211,
+      "offset": 8353,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 5246,
+      "offset": 8388,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5288,
+      "offset": 8430,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8467,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8582,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 6063,
+      "offset": 9491,
       "length": 3,
       "value": "\" \""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 6333,
+      "offset": 9761,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "Array",
-      "offset": 6472,
+      "offset": 9900,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "Array",
-      "offset": 6538,
+      "offset": 9966,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7101,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7196,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7454,
+      "offset": 10738,
       "length": 6,
       "value": "\"Back\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 7784,
+      "offset": 11068,
       "length": 9,
       "value": "\"Forward\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9952,
+      "offset": 13386,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 16841,
+      "offset": 24754,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/PDFViewerViewController.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24950,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/PDFViewerViewController.swift",
       "kind": "StringLiteral",
       "offset": 163,
       "length": 12,
       "value": "\"PDF Viewer\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
       "kind": "IntegerLiteral",
       "offset": 1269,
       "length": 13,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
       "kind": "IntegerLiteral",
       "offset": 1292,
       "length": 11,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
       "kind": "IntegerLiteral",
       "offset": 1313,
       "length": 6,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
       "kind": "IntegerLiteral",
       "offset": 1329,
       "length": 15,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Enums.swift",
       "kind": "IntegerLiteral",
       "offset": 1354,
       "length": 5,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
-      "kind": "Dictionary",
-      "offset": 726,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
-      "kind": "Dictionary",
-      "offset": 798,
-      "length": 3,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 876,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1157,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
-      "kind": "BooleanLiteral",
-      "offset": 2469,
+      "offset": 964,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "kind": "Dictionary",
+      "offset": 2415,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "kind": "Dictionary",
+      "offset": 2487,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2565,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2895,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4353,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "IntegerLiteral",
-      "offset": 4909,
+      "offset": 7713,
       "length": 8,
       "value": "31556926"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 4936,
+      "offset": 7740,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "Dictionary",
-      "offset": 7483,
+      "offset": 10287,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 7515,
+      "offset": 10319,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 7556,
+      "offset": 10360,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 7600,
+      "offset": 10404,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 7635,
+      "offset": 10439,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 7674,
+      "offset": 10478,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 7708,
+      "offset": 10512,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 7742,
+      "offset": 10546,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 7825,
+      "offset": 10629,
       "length": 7,
       "value": "\"blank\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 7868,
+      "offset": 10672,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 7919,
+      "offset": 10723,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 7959,
+      "offset": 10763,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 17325,
+      "offset": 10797,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "kind": "StringLiteral",
+      "offset": 10828,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 27960,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/PortalStateManager.swift",
+      "kind": "Dictionary",
+      "offset": 92,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/PortalStateManager.swift",
+      "kind": "StringLiteral",
+      "offset": 762,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/PortalStateManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 939,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 533,
+      "length": 71,
+      "value": "\"DEBUG: CustomPortalHeader.safeAreaTopInset set to \""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 603,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 624,
+      "length": 90,
+      "value": "\"DEBUG: topPaddingHeightConstraint before = \""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 710,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 713,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 804,
+      "length": 89,
+      "value": "\"DEBUG: topPaddingHeightConstraint after = \""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 889,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 892,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 913,
+      "length": 95,
+      "value": "\"DEBUG: topPaddingHeightConstraint isActive = \""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1001,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1007,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1261,
+      "length": 29,
+      "value": "\"DEBUG: After layout update:\""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1310,
+      "length": 57,
+      "value": "\"  - topPaddingView.frame = \""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1366,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1387,
+      "length": 51,
+      "value": "\"  - contentView.frame = \""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1437,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1458,
+      "length": 32,
+      "value": "\"  - self.frame = \""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1489,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "IntegerLiteral",
+      "offset": 494,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1533,
+      "length": 2,
+      "value": "\"\""
     }
   ]
 }

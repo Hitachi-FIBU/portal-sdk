@@ -4,6 +4,7 @@
 import Contacts
 import Foundation
 import PDFKit
+import PhotosUI
 import Swift
 import UIKit
 import WebKit
@@ -43,6 +44,9 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor @preconcurrency open var closeModalOk: Swift.String
   @_Concurrency.MainActor @preconcurrency open var closeModalCancel: Swift.String
   @_Concurrency.MainActor @preconcurrency open var ignoreUntrustedSSLError: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var isStackedPortal: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var shouldShowCustomHeader: Swift.Bool
+  @_Concurrency.MainActor @preconcurrency open var customHeaderBackgroundColor: UIKit.UIColor
   @_Concurrency.MainActor @preconcurrency open var userAgent: Swift.String? {
     get
     set
@@ -68,12 +72,19 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillLayoutSubviews()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func observeValue(forKeyPath keyPath: Swift.String?, of object: Any?, change: [Foundation.NSKeyValueChangeKey : Any]?, context: Swift.UnsafeMutableRawPointer?)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
     @objc get
   }
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open var shouldAutorotate: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var prefersStatusBarHidden: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open var preferredStatusBarUpdateAnimation: UIKit.UIStatusBarAnimation {
     @objc get
   }
 }
@@ -86,8 +97,17 @@ extension HASPortal.WKWebViewController {
   @_Concurrency.MainActor @preconcurrency public func reload()
   @_Concurrency.MainActor @preconcurrency public func executeScript(script: Swift.String, completion: ((Any?, (any Swift.Error)?) -> Swift.Void)? = nil)
 }
+extension HASPortal.WKWebViewController {
+  @objc @_Concurrency.MainActor @preconcurrency dynamic public func backButtonDidClick(sender: Swift.AnyObject)
+}
+@available(iOS 14.0, *)
+extension HASPortal.WKWebViewController : PhotosUI.PHPickerViewControllerDelegate {
+  @_Concurrency.MainActor @preconcurrency public func picker(_ picker: PhotosUI.PHPickerViewController, didFinishPicking results: [PhotosUI.PHPickerResult])
+}
 extension HASPortal.WKWebViewController : WebKit.WKUIDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, createWebViewWith configuration: WebKit.WKWebViewConfiguration, for navigationAction: WebKit.WKNavigationAction, windowFeatures: WebKit.WKWindowFeatures) -> WebKit.WKWebView?
+  @available(iOS 15.0, *)
+  @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, requestMediaCapturePermissionFor origin: WebKit.WKSecurityOrigin, initiatedByFrame frame: WebKit.WKFrameInfo, type: WebKit.WKMediaCaptureType, decisionHandler: @escaping @Sendable (WebKit.WKPermissionDecision) -> Swift.Void)
 }
 extension HASPortal.WKWebViewController : WebKit.WKNavigationDelegate {
   @_Concurrency.MainActor @preconcurrency @objc dynamic public func webView(_ webView: WebKit.WKWebView, didStartProvisionalNavigation navigation: WebKit.WKNavigation!)
@@ -149,12 +169,27 @@ public enum NavigationBarPosition : Swift.String, Swift.Equatable, Swift.Codable
 public typealias EventListener = (Swift.AnyObject) -> [Swift.String : Any]?
 @objc public class Portal : ObjectiveC.NSObject {
   public init(configuration: [Swift.String : Any])
-  public func open(urlString: Swift.String, headers: [Swift.String : Swift.String] = [:], closeModal: Swift.Bool = false, closeModalTitle: Swift.String = "", closeModalDescription: Swift.String = "", closeModalOk: Swift.String = "", closeModalCancel: Swift.String = "", isInspectable: Swift.Bool = false, isAnimated: Swift.Bool = true, shareDisclaimer: [Swift.String : Any]? = nil, toolbarType: Swift.String = "blank", backgroundColor: Swift.String = "#FFFFFF", ignoreUntrustedSSLError: Swift.Bool = false, showReloadButton: Swift.Bool = false)
+  public func open(urlString: Swift.String, headers: [Swift.String : Swift.String] = [:], closeModal: Swift.Bool = false, closeModalTitle: Swift.String = "", closeModalDescription: Swift.String = "", closeModalOk: Swift.String = "", closeModalCancel: Swift.String = "", isInspectable: Swift.Bool = false, isAnimated: Swift.Bool = true, shareDisclaimer: [Swift.String : Any]? = nil, toolbarType: Swift.String = "blank", backgroundColor: Swift.String = "#FFFFFF", ignoreUntrustedSSLError: Swift.Bool = false, showReloadButton: Swift.Bool = false, showHeader: Swift.Bool = false, title: Swift.String = "")
   public func close()
+  public func openNewInstance(urlString: Swift.String, options: [Swift.String : Any])
   public func addEventListener(eventName: Swift.String, listener: @escaping HASPortal.EventListener)
   public func notifyListener(eventName: Swift.String, data: [Swift.String : Any])
   public func notifyListeners(eventName: Swift.String, data: [Swift.String : Any], retainUntilConsumed: Swift.Bool = false)
   public func requestContactsPermission()
+  @objc deinit
+}
+public class PortalStateManager {
+  public init(_ configuration: [Swift.String : Any])
+  public func set(key: Swift.String, value: Any)
+  public func get<T>(key: Swift.String, type: T.Type) -> T?
+  public func get(key: Swift.String) -> Any?
+  public func getString(key: Swift.String, fallback: Swift.String = "") -> Swift.String
+  public func getBool(key: Swift.String, fallback: Swift.Bool = false) -> Swift.Bool
+  public func clear()
+  public func clear(key: Swift.String)
+  public func getAllKeys() -> [Swift.String]
+  public func hasKey(_ key: Swift.String) -> Swift.Bool
+  public func getAllState() -> [Swift.String : Any]
   @objc deinit
 }
 extension HASPortal.NavigationBarPosition : Swift.Hashable {}
