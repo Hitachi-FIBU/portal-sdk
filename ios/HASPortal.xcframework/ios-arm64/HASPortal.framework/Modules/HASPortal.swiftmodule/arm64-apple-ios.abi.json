@@ -8312,14 +8312,14 @@
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24754,
+      "offset": 23792,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 24950,
+      "offset": 23988,
       "length": 4,
       "value": "true"
     },
@@ -8550,140 +8550,7 @@
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
       "kind": "StringLiteral",
-      "offset": 533,
-      "length": 71,
-      "value": "\"DEBUG: CustomPortalHeader.safeAreaTopInset set to \""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 603,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 624,
-      "length": 90,
-      "value": "\"DEBUG: topPaddingHeightConstraint before = \""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 710,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 713,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 804,
-      "length": 89,
-      "value": "\"DEBUG: topPaddingHeightConstraint after = \""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 889,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 892,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 913,
-      "length": 95,
-      "value": "\"DEBUG: topPaddingHeightConstraint isActive = \""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "BooleanLiteral",
-      "offset": 1001,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1007,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1261,
-      "length": 29,
-      "value": "\"DEBUG: After layout update:\""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1310,
-      "length": 57,
-      "value": "\"  - topPaddingView.frame = \""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1366,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1387,
-      "length": 51,
-      "value": "\"  - contentView.frame = \""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1437,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1458,
-      "length": 32,
-      "value": "\"  - self.frame = \""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1489,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "IntegerLiteral",
-      "offset": 494,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/CustomPortalHeader.swift",
-      "kind": "StringLiteral",
-      "offset": 1533,
+      "offset": 335,
       "length": 2,
       "value": "\"\""
     }
