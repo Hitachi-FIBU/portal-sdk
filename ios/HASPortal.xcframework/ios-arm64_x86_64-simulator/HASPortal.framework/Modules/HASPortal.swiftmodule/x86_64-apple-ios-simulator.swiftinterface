@@ -3,11 +3,13 @@
 // swift-module-flags: -target x86_64-apple-ios12-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name HASPortal
 import AVFoundation
 import Contacts
+import CoreLocation
 import Foundation
 import PDFKit
 import PhotosUI
 import Swift
 import UIKit
+import UserNotifications
 import WebKit
 import _Concurrency
 import _StringProcessing
