@@ -7070,7 +7070,7 @@
           {
             "kind": "Function",
             "name": "open",
-            "printedName": "open(urlString:headers:closeModal:closeModalTitle:closeModalDescription:closeModalOk:closeModalCancel:isInspectable:isAnimated:shareDisclaimer:toolbarType:backgroundColor:ignoreUntrustedSSLError:showReloadButton:showHeader:title:)",
+            "printedName": "open(urlString:headers:closeModal:closeModalTitle:closeModalDescription:closeModalOk:closeModalCancel:isInspectable:isAnimated:shareDisclaimer:backgroundColor:ignoreUntrustedSSLError:showHeader:title:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7190,20 +7190,6 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "hasDefaultArg": true,
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
@@ -7225,8 +7211,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:9HASPortal6PortalC4open9urlString7headers10closeModal0gH5Title0gH11Description0gH2Ok0gH6Cancel13isInspectable0M8Animated15shareDisclaimer11toolbarType15backgroundColor23ignoreUntrustedSSLError16showReloadButton0Y6Header5titleySS_SDyS2SGSbS4SS2bSDySSypGSgS2SS3bSStF",
-            "mangledName": "$s9HASPortal6PortalC4open9urlString7headers10closeModal0gH5Title0gH11Description0gH2Ok0gH6Cancel13isInspectable0M8Animated15shareDisclaimer11toolbarType15backgroundColor23ignoreUntrustedSSLError16showReloadButton0Y6Header5titleySS_SDyS2SGSbS4SS2bSDySSypGSgS2SS3bSStF",
+            "usr": "s:9HASPortal6PortalC4open9urlString7headers10closeModal0gH5Title0gH11Description0gH2Ok0gH6Cancel13isInspectable0M8Animated15shareDisclaimer15backgroundColor23ignoreUntrustedSSLError10showHeader5titleySS_SDyS2SGSbS4SS2bSDySSypGSgSSS2bSStF",
+            "mangledName": "$s9HASPortal6PortalC4open9urlString7headers10closeModal0gH5Title0gH11Description0gH2Ok0gH6Cancel13isInspectable0M8Animated15shareDisclaimer15backgroundColor23ignoreUntrustedSSLError10showHeader5titleySS_SDyS2SGSbS4SS2bSDySSypGSgSSS2bSStF",
             "moduleName": "HASPortal",
             "declAttributes": [
               "AccessControl"
@@ -8318,36 +8304,43 @@
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
+      "kind": "Array",
+      "offset": 17315,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18031,
+      "offset": 17996,
       "length": 6,
       "value": "\"Back\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 18361,
+      "offset": 18326,
       "length": 9,
       "value": "\"Forward\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21069,
+      "offset": 21034,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 42651,
+      "offset": 42613,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/WKWebViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 42847,
+      "offset": 42809,
       "length": 4,
       "value": "true"
     },
@@ -8508,49 +8501,35 @@
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 10629,
-      "length": 7,
-      "value": "\"blank\""
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
-      "kind": "StringLiteral",
-      "offset": 10672,
+      "offset": 10633,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 10723,
+      "offset": 10684,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 10763,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
-      "kind": "BooleanLiteral",
-      "offset": 10797,
+      "offset": 10718,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 10828,
+      "offset": 10749,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 27960,
+      "offset": 26074,
       "length": 5,
       "value": "false"
     },

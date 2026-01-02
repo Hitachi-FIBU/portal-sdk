@@ -172,7 +172,7 @@ public enum NavigationBarPosition : Swift.String, Swift.Equatable, Swift.Codable
 public typealias EventListener = (Swift.AnyObject) -> [Swift.String : Any]?
 @objc public class Portal : ObjectiveC.NSObject {
   public init(configuration: [Swift.String : Any])
-  public func open(urlString: Swift.String, headers: [Swift.String : Swift.String] = [:], closeModal: Swift.Bool = false, closeModalTitle: Swift.String = "", closeModalDescription: Swift.String = "", closeModalOk: Swift.String = "", closeModalCancel: Swift.String = "", isInspectable: Swift.Bool = false, isAnimated: Swift.Bool = true, shareDisclaimer: [Swift.String : Any]? = nil, toolbarType: Swift.String = "blank", backgroundColor: Swift.String = "#FFFFFF", ignoreUntrustedSSLError: Swift.Bool = false, showReloadButton: Swift.Bool = false, showHeader: Swift.Bool = false, title: Swift.String = "")
+  public func open(urlString: Swift.String, headers: [Swift.String : Swift.String] = [:], closeModal: Swift.Bool = false, closeModalTitle: Swift.String = "", closeModalDescription: Swift.String = "", closeModalOk: Swift.String = "", closeModalCancel: Swift.String = "", isInspectable: Swift.Bool = false, isAnimated: Swift.Bool = true, shareDisclaimer: [Swift.String : Any]? = nil, backgroundColor: Swift.String = "#FFFFFF", ignoreUntrustedSSLError: Swift.Bool = false, showHeader: Swift.Bool = false, title: Swift.String = "")
   public func close()
   public func openNewInstance(urlString: Swift.String, options: [Swift.String : Any])
   public func addEventListener(eventName: Swift.String, listener: @escaping HASPortal.EventListener)
