@@ -1,6 +1,6 @@
 # Hitachi Portal Integration (Android)
 
-**Doc Version:** 0.7 · **SDK Version:** 1.0.30+ · **Confidentiality:** For Internal Use Only
+**Doc Version:** 0.7 · **SDK Version:** 1.0.31+ · **Confidentiality:** For Internal Use Only
 
 > This document contains proprietary information that is confidential to Hitachi Asia. Disclosure of this document in full or in part may result in material damage to Hitachi Asia. Written permission must be obtained from Hitachi Asia prior to the disclosure of this document to a third party.
 
