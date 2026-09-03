@@ -8639,112 +8639,133 @@
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 7944,
+      "offset": 4087,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8723,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "IntegerLiteral",
-      "offset": 11304,
+      "offset": 12083,
       "length": 8,
       "value": "31556926"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 11331,
+      "offset": 12110,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15300,
+      "length": 8,
+      "value": "31556926"
+    },
+    {
+      "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15327,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "Dictionary",
-      "offset": 13878,
+      "offset": 17007,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 13910,
+      "offset": 17039,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 13951,
+      "offset": 17080,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 13995,
+      "offset": 17124,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 14030,
+      "offset": 17159,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 14069,
+      "offset": 17198,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 14103,
+      "offset": 17232,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 14137,
+      "offset": 17266,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 14224,
+      "offset": 17353,
       "length": 9,
       "value": "\"#FFFFFF\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 14275,
+      "offset": 17404,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 14309,
+      "offset": 17438,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "StringLiteral",
-      "offset": 14340,
+      "offset": 17469,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/chrislee\/Documents\/Projects\/aeon\/lms\/mini-app\/native\/lib\/sdk\/ios\/workspace\/HASPortal\/ios\/HASPortal\/Portal.swift",
       "kind": "BooleanLiteral",
-      "offset": 31555,
+      "offset": 38371,
       "length": 5,
       "value": "false"
     },
