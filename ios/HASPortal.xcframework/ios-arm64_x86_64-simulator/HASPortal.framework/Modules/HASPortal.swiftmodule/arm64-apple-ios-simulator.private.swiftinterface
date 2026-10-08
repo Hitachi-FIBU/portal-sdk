@@ -50,6 +50,7 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor @preconcurrency open var isStackedPortal: Swift.Bool
   @_Concurrency.MainActor @preconcurrency open var shouldShowCustomHeader: Swift.Bool
   @_Concurrency.MainActor @preconcurrency open var customHeaderBackgroundColor: UIKit.UIColor
+  @_Concurrency.MainActor @preconcurrency open var inspectable: Swift.Bool
   @_Concurrency.MainActor @preconcurrency open var userAgent: Swift.String? {
     get
     set
@@ -70,7 +71,7 @@ import _SwiftConcurrencyShims
   @_Concurrency.MainActor @preconcurrency open var activityBarButtonItemImage: UIKit.UIImage?
   @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency open func initWebview(isInspectable: Swift.Bool = true)
+  @_Concurrency.MainActor @preconcurrency open func initWebview(isInspectable: Swift.Bool = false)
   @_Concurrency.MainActor @preconcurrency open func setupViewElements()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillTransition(to size: CoreFoundation.CGSize, with coordinator: any UIKit.UIViewControllerTransitionCoordinator)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillLayoutSubviews()
